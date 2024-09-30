@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "titulo": "BISAGRA H82 PLUS Tipo puente",
+        "imagen": "/img/blog/bisagra-h82.jpg",
+        "descripcion": "Desarrollada por nuestro departamento de diseño. Soporta 130 kilos por bisagra. Tornillos, pletina y perno en acero inoxidable AISI 304. Para grandes portales",
+        "aplicaciones": "A30/40 Aluar. M3/M5 Alcemar. HA110/Nordical Hydro. Mass R60 MDT"
+    },
+    {
+        "id": 2,
+        "titulo": "CARRO R47 A AGUJAS",
+        "imagen": "/img/blog/R47-aguja_thumbnail.jpg",
+        "descripcion": "Conjunto tándem, con regulación micrométrica, hasta 4,5 mm. Carcaza de nylon y porta ruedas de zamak. Casquillo de agujas y ruedas de acetal. Carga máxima recomendable: 150/300 Kg.",
+        "aplicaciones": "A30/40 Aluar. M3/M5 Alcemar. HA110/Nordical Hydro. Mass R60 MDT"
+    },
+    {
+        "id": 3,
+        "titulo": "CARRO PROIN / STAC R47",
+        "imagen": "/img/blog/PROIN-R47_thumbnail.jpg",
+        "descripcion": "Conjunto tándem regulable, basculante y desmontable, con soporte de zamak, casquillos de agujas y ruedas de acetal. Carga máxima recomendable: 200 kg. por conjunto y 400 kg. por hoja",
+        "aplicaciones": "A30/40 Aluar M3/M5 Alcemar HA110/Nordical Hydro Mass R60 MDT"
+    },
+    {
+        "id": 4,
+        "titulo": "Cierre lateral + tirador (opcional)",
+        "imagen": "/img/blog/cierre-lateral.jpg",
+        "descripcion": "Nuevo cierre lateral + tirador (opcional); íntegramente metálico, cierre dual automático o dos posiciones, fácil instalación, apto para todas las líneas existentes en nuestro mercado.",
+        "aplicaciones": "-"
+    }
+]

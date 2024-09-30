@@ -4,11 +4,11 @@
     <title>
         @yield('title', 'Main')
     </title>
-    <!-- <link href="{{ url('css/bootstrap.min.css') }}" rel="stylesheet"> -->
+    <link rel="stylesheet" href="{{ asset('css/styles.css') }}">
 </head>
 
 <body>
-    
+    <x-nav></x-nav>
     @if (session()->has('feedback.message'))
         <div class="alert alert-success">
             {!! session()->get('feedback.message') !!}

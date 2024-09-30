@@ -1,0 +1,210 @@
+[
+    {
+        "id": 1,
+        "nombre" : "Escuadra E69",
+        "imagen" : "/img/products/comunello/comunello-escuadra-e69.jpg",
+        "descripcion" : "-",
+        "marca" : "Comunello",
+        "categoria" : "Escuadras"
+    },
+    {
+        "id": 2,
+        "nombre" : "Escuadra E83/8",
+        "imagen" : "/img/products/comunello/comunello-escuadra-e83.jpg",
+        "descripcion" : "-",
+        "marca" : "Comunello",
+        "categoria" : "Escuadras"
+    },
+    {
+        "id": 3,
+        "nombre" : "Escuadra AA680",
+        "imagen" : "/img/products/comunello/comunello-escuadra-aa680.jpg",
+        "descripcion" : "-",
+        "marca" : "Comunello",
+        "categoria" : "Escuadras"
+    },
+    {
+        "id": 4,
+        "nombre" : "Escuadra E97",
+        "imagen" : "/img/products/comunello/comunello-escuadra-1190f.jpg",
+        "descripcion" : "-",
+        "marca" : "Comunello",
+        "categoria" : "Escuadras"
+    },
+    {
+        "id": 5,
+        "nombre" : "Escuadra AA668",
+        "imagen" : "/img/products/comunello/comunello-escuadra-aa668.jpg",
+        "descripcion" : "-",
+        "marca" : "Comunello",
+        "categoria" : "Escuadras"
+    },
+    {
+        "id": 6,
+        "nombre" : "Soporte compás",
+        "imagen" : "/img/products/roto-frank/roto-productos-nx-soporte-compas-97x300.jpg",
+        "descripcion" : "97x300",
+        "marca" : "Roto Frank",
+        "categoria" : "NX"
+    },
+    {
+        "id": 7,
+        "nombre" : "Pernio",
+        "imagen" : "/img/products/roto-frank/roto-productos-nx-pernio-91x300.jpg",
+        "descripcion" : "91x300",
+        "marca" : "Roto Frank",
+        "categoria" : "NX"
+    },
+    {
+        "id": 8,
+        "nombre" : "Lock casing",
+        "imagen" : "/img/products/roto-frank/roto-productos-nx-lock-casing-158x300.jpg",
+        "descripcion" : "158x300",
+        "marca" : "Roto Frank",
+        "categoria" : "NX"
+    },
+    {
+        "id": 9,
+        "nombre" : "Gearbox",
+        "imagen" : "/img/products/roto-frank/roto-productos-nx-gearbox-158x300.jpg",
+        "descripcion" : "158x300",
+        "marca" : "Roto Frank",
+        "categoria" : "NX"
+    },
+    {
+        "id": 10,
+        "nombre" : "Eje soporte compás",
+        "imagen" : "/img/products/roto-frank/roto-productos-nx-eje-soporte-compas-91x300.jpg",
+        "descripcion" : "91x300",
+        "marca" : "Roto Frank",
+        "categoria" : "NX"
+    },
+    {
+            "id": 11,
+            "nombre" : "Cerradero de seguridad con microventilación",
+            "imagen" : "/img/products/roto-frank/roto-productos-nx-cerradero-de-seguridad-300x96.jpg",
+            "descripcion" : "300x96",
+            "marca" : "Roto Frank",
+            "categoria" : "NX"
+    },
+    {
+            "id": 12,
+            "nombre" : "Brazo compás",
+            "imagen" : "/img/products/roto-frank/roto-productos-nx-brazo-compas-1024x192.jpg",
+            "descripcion" : "1024x192",
+            "marca" : "Roto Frank",
+            "categoria" : "NX"
+    },
+    {
+            "id": 13,
+            "nombre" : "COMALL - CUT 400 A",
+            "imagen" : "/img/products/maquinas-usadas/maquinas-usadas-comall-cut-400a-portada.jpg",
+            "descripcion" : "En buen estado",
+            "marca" : "Comall",
+            "categoria" : "Maquinas Usadas"
+    },
+    {
+            "id": 14,
+            "nombre" : "Elumatec - Centro mecanizado CNC",
+            "imagen" : "/img/products/maquinas-usadas/maquinas-usadas-elumatec-centro-mecanizado-cnc-portada.jpg",
+            "descripcion" : "En muy buen estado",
+            "marca" : "Elumatec",
+            "categoria" : "Maquinas Usadas"
+    },
+    {
+            "id": 15,
+            "nombre" : "FOM INDUSTRIE - CARR 600",
+            "imagen" : "/img/products/maquinas-usadas/maquinas-usadas-fom-carr600-portada.jpg",
+            "descripcion" : "Producto sin usar",
+            "marca" : "Fom Industrie",
+            "categoria" : "Maquinas Usadas"
+    },
+    {
+            "id": 16,
+            "nombre" : "OK Industrial S.R.L. - POK M3 ARQ",
+            "imagen" : "/img/products/maquinas-usadas/maquinas-usadas-ok-pok-m3-arq-portada.jpg",
+            "descripcion" : "En buen estado",
+            "marca" : "OK Industrial S.R.L",
+            "categoria" : "Maquinas Usadas"
+    },
+    {
+            "id": 17,
+            "nombre" : "Schulz - MSV 20 SA/250",
+            "imagen" : "/img/products/maquinas-usadas/maquinas-usadas-schulz-msv20-portada.jpg",
+            "descripcion" : "En muy buen estado",
+            "marca" : "Schulz",
+            "categoria" : "Maquinas Usadas"
+    },
+    {
+        "id": 18,
+        "nombre" : "H62 - Bisagras de tres alas de aluminio",
+        "imagen" : "/img/products/master/master_bisagra-agarre-rapido.jpg",
+        "descripcion" : "Bisagra del lado del marco y de la hoja de aluminio extruido, placas de zamac, casquillos y tapones de nylon, tornillos y perno de acero inoxidable.",
+        "marca" : "Master",
+        "categoria" : "Bisagra" 
+    },
+    {
+            "id": 19,
+            "nombre" : "H45/2 - Compás oscilobatiente Ween",
+            "imagen" : "/img/products/master/master_compas_oscilobatiente_ween.jpg",
+            "descripcion" : "Levas, tornillos y prisioneros de acero inoxidable, cuerpo de zamac, sistema cortaviento de nylon.",
+            "marca" : "Master",
+            "categoria" : "Compas" 
+    },
+    {
+        "id": 20,
+        "nombre" : "H47 Confort - Cremona 104",
+        "imagen" : "/img/products/master/master_cremona.jpg",
+        "descripcion" : "Caja y mango de aluminio fundido a presión; cremalleras, piñón y cobertura de caja de zamac galvanizado; guía y arandela de fricción de resina acetálica; tornillos de acero galvanizado; tornillos de bloqueo de la cremona sobre perfil de acero inoxidable.",
+        "marca" : "Master",
+        "categoria" : "Cremona" 
+},
+{
+        "id": 21,
+        "nombre" : "H45/7 Confort - Cremona para apertura externa",
+        "imagen" : "/img/products/master/master_cremona_apertura_externa.jpg",
+        "descripcion" : "Caja y mango de aluminio fundido a presión; cremalleras, piñón y cobertura de caja de zamac galvanizado; guía y arandela de fricción de resina acetálica; tornillos de acero galvanizado; tornillos de bloqueo de la cremona sobre perfil de acero inoxidable.",
+        "marca" : "Master",
+        "categoria" : "Cremona" 
+},
+{
+        "id": 22,
+        "nombre" : "H91 - Manilla de presión Semplice",
+        "imagen" : "/img/products/master/master_manilla_cobertura_caja_rotacion.jpg",
+        "descripcion" : "Mango, caja y cobertura cerradero de zamac; gancho de zamac galvanizado; base cerradero y espesores de nylon; tornillos de acero galvanizado.",
+        "marca" : "Master",
+        "categoria" : "Manilla" 
+},
+{
+        "id": 23,
+        "nombre" : "Goniómetro Quadranfix de 45cm",
+        "imagen" : "/img/products/metrica/metrica-producto-quadranfix45-f.jpg",
+        "descripcion" : "Dos brazos encajados, con tornillo de bloqueo. Lectura directa en grados en el cuadrante frontal. Capacidad 0-180°. Dos burbujas acrílicas (horizontal y vertical). Dos Puntas en acero templado, para uso de compas.",
+        "marca" : "Metrica",
+        "categoria" : "Sistemas de medición" 
+},
+{
+        "id": 24,
+        "nombre" : "Flash 30 Metros",
+        "imagen" : "/img/products/metrica/metrica-producto-laser30.jpg",
+        "descripcion" : "Display retroiluminado en 4 lineas. Pantalla negra de alta visibilidad. Función de medición continua, con valores max / min siempre visibles. 4 funciones de pitágoras. Seguimiento guiado. Distancias, superficies, volúmenes.",
+        "marca" : "Metrica",
+        "categoria" : "Sistemas de medición" 
+},
+{
+        "id": 25,
+        "nombre" : "Flash 80 Metros",
+        "imagen" : "/img/products/metrica/metrica-producto-laser80-a.jpg",
+        "descripcion" : "Cámara de destino. Cámara con visor para ver el punto donde está midiendo. Doble inclinómetro (horizontal y vertical). Nivel electrónico multidireccional. Función de medición continua, con valores max / min siempre mostrados. 6 funciones de pitágoras. Seguimiento guiado. Distancias, superficies, volúmenes.",
+        "marca" : "Metrica",
+        "categoria" : "Sistemas de medición" 
+},
+{
+        "id": 26,
+        "nombre" : "Láser Autonivelante Rotativo SL Green",
+        "imagen" : "/img/products/metrica/metrica-laser-rotativo-sl-red.jpg",
+        "descripcion" : "Nivel láser automático verde con rotación visible: genera un plano horizontal nivelado y la línea de plomo. Girando el dispositivo de 90°, genera un plano láser vertical nivelado y un rayo horizontal. FUNCIÓN TILT: en caso de movimiento involuntario del rayo se detendrá y después de 10 segundos, el instrumento se desconectará. Función manual y automática 5/8”. Función de rotación paso a paso.",
+        "marca" : "Metrica",
+        "categoria" : "Sistemas de medición" 
+}
+]
