@@ -5,9 +5,10 @@
         @yield('title', 'Main')
     </title>
     <link rel="stylesheet" href="{{ asset('css/styles.css') }}">
+    <script src="{{ url('js/tailwind.js') }}"></script>
 </head>
 
-<body>
+<body class="min-h-dvh relative" >
     <x-nav></x-nav>
     @if (session()->has('feedback.message'))
         <div class="alert alert-success">
@@ -17,7 +18,7 @@
 
     @yield('content')
 
-    <script src="{{ url('js/tailwind.js') }}"></script>
+    <x-footer></x-footer>
 </body>
 
 </html>

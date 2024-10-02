@@ -4,7 +4,7 @@
 
 <section class="min-h-dvh items-center">
   <div class="flex w-full items-center justify-center">
-    <h1 class="text-4xl font-bold text-center">Productos</h1>
+    <h2 class="text-4xl font-bold text-center">Productos</h2>
   </div>
   <div class="flex w-full flex-col items-center justify-center">
     <a href="{{ route('product.create.form') }}" class="bg-red-800 rounded p-1.5 text-white font-semibold my-5 hover:bg-red-900">Publicar un Producto</a>

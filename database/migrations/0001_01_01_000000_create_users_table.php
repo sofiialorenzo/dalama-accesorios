@@ -41,6 +41,18 @@ return new class extends Migration
             'email' => 'sofia@gmail.com',
             'password' => \Hash::make('contraseña')
         ]);
+
+        \DB::table('users')->insert([
+            'name' => 'Lucas',
+            'email' => 'lucas@gmail.com',
+            'password' => \Hash::make('contraseña')
+        ]);
+
+        \DB::table('users')->insert([
+            'name' => 'Carlos',
+            'email' => 'carlos@gmail.com',
+            'password' => \Hash::make('contraseña')
+        ]);
     }
 
     /**

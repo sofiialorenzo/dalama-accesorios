@@ -4,7 +4,7 @@
 
 @section('content')
 
-<div class="my-10">
+<div class="my-10 w-4/5 mx-auto ">
     <h2 class="text-3xl font-bold text-center">Publicar un nuevo producto</h2>
     @if ($errors->any())
                 <div class="bg-red-100 text-red-600 p-3 rounded mb-6">

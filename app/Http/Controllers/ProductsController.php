@@ -29,19 +29,21 @@ class ProductsController extends Controller
     }
     public function createProcess(Request $request)
     {
-        // dd($request->file('image'));
 
         $request->validate([
             'name' => 'required|min:3',
+            'brand' => 'required',
+            'category' => 'required',
+            'image' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048',
             'description' => 'required|min:3',
-            'image' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048'
-
         ],[
             'name.required' => 'El título debe tener un valor.',
             'name.min' => 'El título debe tener al menos :min caracteres.',
-            'description.required' => 'La descripción tiene que tener un valor.',
-            'description.min' => 'La descripción tiene que tener al menos :min caracteres.',
-            'image.required' => 'La imagen puede estar vacia.',
+            'brand.required' => 'La marca debe tener un valor.',
+            'category.required' => 'La categoría debe tener un valor.',
+            'image.required' => 'La imagen debe no puede estar vacia.',
+            'description.required' => 'La descripción debe tener un valor.',
+            'description.min' => 'La descripción debe tener al menos :min caracteres.'
         ]);
 
         $input = $request->only(['name', 'image', 'description', 'brand', 'category']);
@@ -68,11 +70,13 @@ class ProductsController extends Controller
 
     public function editProcess(int $id, Request $request)
     {
+        $product = Product::findOrFail($id);
+
         $request->validate([
             'name' => 'required|min:3',
             'brand' => 'required|min:3',
             'category' => 'required|min:3',
-            'image' => 'required',
+            'image' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048',
             'description' => 'required|min:3',
         ],[
             'name.required' => 'El título debe tener un valor.',
@@ -86,15 +90,21 @@ class ProductsController extends Controller
             'description.min' => 'La descripción debe tener al menos :min caracteres.'
         ]);
 
-        $input = $request->only(['name', 'image', 'brand', 'category', 'description']);
+        // $input = $request->only(['name', 'image', 'brand', 'category', 'description']);
 
+        $input = $request->only(['name', 'image', 'description', 'brand', 'category']);
+
+        $imageName = time() . '.' . $request->file('image')->getClientOriginalExtension();
+            $request->file('image')->move(public_path('img'), $imageName);
+    
+        $input['image'] = $imageName;
+        
         $product = Product::findOrFail($id);
-
         $product->update($input);
 
         return redirect()
-            ->route('movies.index')
-            ->with('feedback.message', 'El producto <b> '. e($input['name']) .'</b> fue Actualizada con exito.');
+            ->route('products.all-products')
+            ->with('feedback.message', 'El producto <b> '. e($input['name']) .'</b> fue actualizado con exito.');
     }
 
     public function deleteProcess(int $id)

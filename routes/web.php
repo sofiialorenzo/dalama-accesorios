@@ -16,24 +16,27 @@ Route::get('/products/{product_id}', [App\Http\Controllers\ProductsController::c
 Route::get('/novedades/{blog_id}', [App\Http\Controllers\HomeController::class, "blogView"])
     ->name('blog.view')
     ->whereNumber('blog_id');
+    
 Route::get('/products/publicar', [App\Http\Controllers\ProductsController::class, "createForm"])
-    ->name('product.create.form');
-    // ->middleware('auth');
+    ->name('product.create.form')
+    ->middleware('auth');
 Route::post('/products/publicar', [App\Http\Controllers\ProductsController::class, "createProcess"])
-    ->name('product.create.process');
-    // ->middleware('auth');
+    ->name('product.create.process')
+    ->middleware('auth');
+
 Route::get('products/{id}/editar', [App\Http\Controllers\ProductsController::class, "editForm"])
     ->name('products.edit.form')
-    ->whereNumber('id');
-    // ->middleware('auth');
+    ->whereNumber('id')
+    ->middleware('auth');
 Route::put('products/{id}/editar', [App\Http\Controllers\ProductsController::class, "editProcess"])
     ->name('products.edit.process')
-    ->whereNumber('id');
-    // ->middleware('auth');
+    ->whereNumber('id')
+    ->middleware('auth');
+
 Route::delete('products/{id}/eliminar', [App\Http\Controllers\ProductsController::class, "deleteProcess"])
     ->name('products.delete.process')
-    ->whereNumber('id');
-    // ->middleware('auth');
+    ->whereNumber('id')
+    ->middleware('auth');
 
 Route::get('/login', [\App\Http\Controllers\AuthController::class, "loginForm"])
     ->name('auth.login.form');

@@ -25,7 +25,7 @@
                     </li>
                     @else
                     <li class="hover:bg-red-800 hover:text-white hover:rounded px-2.5 py-1">
-                        <form action="{{ route('auth.logout.process') }}" method="POST">
+                        <form action="{{ route('auth.logout.process') }}" method="POST" class="mb-0">
                             @csrf
                             <button class="nav-link" > {{ auth()->user()->email }} (Cerrar Sesion) </button>
                         </form>
