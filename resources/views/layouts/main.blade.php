@@ -11,7 +11,7 @@
 <body class="min-h-dvh relative" >
     <x-nav></x-nav>
     @if (session()->has('feedback.message'))
-        <div class="alert alert-success">
+        <div class="bg-red-100 text-red-600 p-3 rounded mb-6">
             {!! session()->get('feedback.message') !!}
         </div>
     @endif
