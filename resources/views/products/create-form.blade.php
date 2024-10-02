@@ -4,7 +4,7 @@
 
 @section('content')
 
-<div class="my-10 w-4/5 mx-auto ">
+<div class="my-10 md:w-4/5 mx-auto ">
     <h2 class="text-3xl font-bold text-center">Publicar un nuevo producto</h2>
     @if ($errors->any())
                 <div class="bg-red-100 text-red-600 p-3 rounded mb-6">
@@ -13,27 +13,27 @@
             @endif
         <form action="{{ route('product.create.process') }}" method="POST" enctype="multipart/form-data" class="my-10 mx-20">
             @csrf
-            <div class="grid grid-cols-2 gap-4 my-3.5">
-            <div>
-                <label for="name" class="block text-sm font-medium text-gray-700">Título</label>
-                <input type="text" id="name" name="name" value="{{ old('name') }}" class="mt-1 block w-full p-2 border border-gray-300 rounded-md">
-                @error('name')
+            <div class="grid md:grid-cols-2 gap-4 my-3.5">
+                <div>
+                    <label for="name" class="block text-sm font-medium text-gray-700">Título</label>
+                    <input type="text" id="name" name="name" value="{{ old('name') }}" class="mt-1 block w-full p-2 border border-gray-300 rounded-md">
+                    @error('name')
+                            <div class="text-danger">
+                                {{ $message }}
+                            </div>
+                        @enderror
+                </div>
+                <div>
+                    <label for="image" class="block text-sm font-medium text-gray-700">Imagen</label>
+                    <input type="file" id="image" name="image" value="{{ old('image') }}" class="mt-1 block w-full p-2 border border-gray-300 rounded-md">
+                    @error('image')
                         <div class="text-danger">
                             {{ $message }}
                         </div>
                     @enderror
+                </div>
             </div>
-            <div>
-                <label for="image" class="block text-sm font-medium text-gray-700">Imagen</label>
-                <input type="file" id="image" name="image" value="{{ old('image') }}" class="mt-1 block w-full p-2 border border-gray-300 rounded-md">
-                @error('image')
-                    <div class="text-danger">
-                        {{ $message }}
-                    </div>
-                @enderror
-            </div>
-            </div>
-            <div class="grid grid-cols-2 gap-4 my-3.5">
+            <div class="grid md:grid-cols-2 gap-4 my-3.5">
             <div>
                 <label for="brand" class="block text-sm font-medium text-gray-700">Marca</label>
                 <input type="text" id="brand" name="brand" class="mt-1 block w-full p-2 border border-gray-300 rounded-md">

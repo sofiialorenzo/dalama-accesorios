@@ -4,7 +4,7 @@
 
 @section('content')
 
-        <div class="my-10 w-4/5 mx-auto ">
+        <div class="my-10 md:w-4/5 mx-auto ">
             <h2 class="text-3xl font-bold text-center">Editar el producto {{ $product->name }}</h2>
 
             @if ($errors->any())
@@ -16,39 +16,39 @@
             <form action="{{ route('products.edit.process', ['id' => $product->product_id]) }}" method="POST" enctype="multipart/form-data" class="my-10 mx-20">
                 @method('PUT')
                 @csrf
-                <div class="grid grid-cols-2 gap-4 my-3.5">
-            <div>
-                <label for="name" class="block text-sm font-medium text-gray-700">Título</label>
-                <input 
-                    type="text" 
-                    class="mt-1 block w-full p-2 border border-gray-300 rounded-md"
-                    id="name" 
-                    name="name" 
-                    value="{{ old('name') ?? $product->name }}"
-                >
-                @error('name')
-                        <div class="text-danger">
-                            {{ $message }}
-                        </div>
-                    @enderror
-            </div>
-            <div>
-                <label for="image" class="block text-sm font-medium text-gray-700">Imagen</label>
-                <input 
-                    type="file" 
-                    class="mt-1 block w-full p-2 border border-gray-300 rounded-md"
-                    id="image" 
-                    name="image" 
-                    value="{{ old('image') }}" 
-                >
-                @error('image')
-                    <div class="text-danger">
-                        {{ $message }}
+                <div class="grid md:grid-cols-2 gap-4 my-3.5">
+                    <div>
+                        <label for="name" class="block text-sm font-medium text-gray-700">Título</label>
+                        <input 
+                            type="text" 
+                            class="mt-1 block w-full p-2 border border-gray-300 rounded-md"
+                            id="name" 
+                            name="name" 
+                            value="{{ old('name') ?? $product->name }}"
+                        >
+                        @error('name')
+                                <div class="text-danger">
+                                    {{ $message }}
+                                </div>
+                            @enderror
                     </div>
-                @enderror
-            </div>
-            </div>
-            <div class="grid grid-cols-2 gap-4 my-3.5">
+                    <div>
+                        <label for="image" class="block text-sm font-medium text-gray-700">Imagen</label>
+                        <input 
+                            type="file" 
+                            class="mt-1 block w-full p-2 border border-gray-300 rounded-md"
+                            id="image" 
+                            name="image" 
+                            value="{{ old('image') }}" 
+                        >
+                        @error('image')
+                            <div class="text-danger">
+                                {{ $message }}
+                            </div>
+                        @enderror
+                    </div>
+                </div>
+            <div class="grid md:grid-cols-2 gap-4 my-3.5">
             <div>
                 <label for="brand" class="block text-sm font-medium text-gray-700">Marca</label>
                 <input 

@@ -7,25 +7,21 @@
 @section('content')
 
 <div>
-    <div class="row">
-        <div class="col-12">
-            <figure>
-                <img class="w-full" src="/img/banner.jpg" alt="Banner Publicitario">
-            </figure>
-        </div>
-    </div>
-    <section class="flex justify-center items-center gap-4 mx-20 mt-10">
-        <figure>
-            <img src="/img/ventana.jpg" alt="Ventana" class="w-3/4">
+    <figure>
+        <img class="w-full" src="/img/banner.jpg" alt="Banner Publicitario">
+    </figure>
+    <section class="flex justify-center items-center gap-8 mx-20 mt-10 md:flex-row flex-col">
+        <figure class="md:w-1/2 w-full">
+            <img class="object-cover" src="/img/ventana.jpg" alt="Ventana">
         </figure>
-        <article class="w-1/2">
+        <article class="md:w-1/2 w-full">
             <h2 class="font-bold mb-10 text-3xl">Dalama - Accesorios de Carpintería de Aluminio con 30 Años de Trayectoria Familiar</h2>
             <p>En Dalama, ofrecemos soluciones <b>duraderas y de alta calidad</b> para tus proyectos de carpintería de aluminio. Con 30 años de experiencia como empresa familiar, nos comprometemos a brindar productos <b>confiables</b> y un servicio de <b>excelencia</b> que cumple con las necesidades de nuestros clientes en todo el país.</p>
         </article>
     </section>
     <section class="mx-5 my-10">
         <h2 class="text-center font-bold text-2xl my-20">Nuestros servicios</h2>
-        <div class="grid grid-cols-3 gap-4 mt-10 w-4/5 mx-auto">
+        <div class="grid md:grid-cols-3 gap-4 mt-10 w-full md:w-4/5 grid-cols-1 mx-auto">
             <div>
                 <figure>
                     <img src="/img/envio.png" alt="Icono Envios" class="flex items-center mx-auto h-16">
